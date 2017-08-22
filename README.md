@@ -28,6 +28,12 @@ A sample of the data is as follows:
 Label distribution:
 Class Label 0 indicates that the question pair is not duplicate, and 1 indicates that the question pair is duplicate.
 
+Interaction Diagram:
+
+![quoraquestionpair-interactiondiagram](https://user-images.githubusercontent.com/16725903/29592501-2473a290-876a-11e7-9056-c841c691ae45.png)
+
+
+
 
 Given two words, w1 and w2, we need to find the semantic similarity s(w1,w2). We can do this by analysis of the lexical knowledge base (in this paper, we have used WordNet) as follows: Words are organized into synonym sets (synsets) in the knowledge base [26], with semantics and relation pointers to other synsets. Therefore, we can find the first class in the hierarchical semantic network that
 subsumes the compared words. One direct method for similarity calculation is to find the minimum length of path connecting the two words [30]. For example, the shortest path between boy and girl in Fig. 2 is boy-male-person-femalegirl, the minimum path length is 4, the synset of person is called the subsumer for words of boy and girl, while the minimum path length between boy and teacher is 6. Thus, we
