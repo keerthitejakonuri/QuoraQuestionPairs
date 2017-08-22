@@ -25,6 +25,10 @@ Data fields:
 • is_duplicate - the target variable, set to 1 if question1 and question2 have essentially the same meaning
 
 A sample of the data is as follows:
+![quoraquestionpair-datadescription](https://user-images.githubusercontent.com/16725903/29592663-1d46778a-876b-11e7-9720-b92c28ce1b81.png)
+
+
+
 Label distribution:
 Class Label 0 indicates that the question pair is not duplicate, and 1 indicates that the question pair is duplicate.
 
