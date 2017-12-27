@@ -10,7 +10,7 @@ This is a kaggle competition. Kagglers are challenged to tackle this natural lan
 
 The goal of this competition is to predict which of the provided pairs of questions contain two questions with the same meaning. The ground truth is the set of labels that have been supplied by human experts. 
 
-And, We developed a Machine Learning Ensemble Model (Boosting) to identify the question pairs that have the same intent in a Kaggle competition combining two weak learners semantic similarity and order similarity.
+And, We developed a Machine Learning Ensemble Model (Bagging) to identify the question pairs that have the same intent in a Kaggle competition combining two weak learners semantic similarity and order similarity.
 
 Doing so will make it easier to find high quality answers to questions resulting in an improved experience for Quora writers, seekers, and readers.
 
